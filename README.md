@@ -1,1 +1,14 @@
 # prueba-t-cnica-php_konecta
+
+
+CONSULTA SQL:
+
+
+SELECT TOP 3 ARTICULO
+	 , SUM(MONTO_VENTAS) VENDIDO
+FROM   VENTAS
+GROUP  BY ARTICULO
+ORDER  BY VENDIDO DESC;
+© 2022 GitHub, Inc.
+Terms
+Privacy
